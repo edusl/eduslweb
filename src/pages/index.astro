@@ -2,7 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
 <!DOCTYPE html>
@@ -13,13 +13,12 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<h1>🧑‍🚀 hey!</h1>
-
-
-			<p>Trabajando profesionalmente en informática desde 2005, y desde 2007 como desarrollador frontend, y en especial, al desarrollo y maquetación de interfaces web.</p>
-			<p>He colaborado en numerosos proyectos, desde instituciones gubernamentales como Ayuntamiento de Madrid, Generalitat de Catalunya, Agencia tributaria o el Ministerio de trabajo, a grandes grupos empresariales como Telefónica, Inditex, Repsol, Mutua, FCC, Bankinter, NH o Santander entre otros.</p>
-			<p>En los proyectos que participo, siempre me esfuerzo en realizar entregas con la máxima calidad, dando importancia a la accesibilidad, además de buscar la optimización de los recursos y la máxima compatibilidad de dispositivos.</p>
-
+			<h1>🧑‍🚀 Hello, Astronaut!</h1>
+			<p>
+				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
+				template serves as a lightweight, minimally-styled starting point for anyone looking to build
+				a personal website, blog, or portfolio with Astro.
+			</p>
 			<p>
 				This template comes with a few integrations already configured in your
 				<code>astro.config.mjs</code> file. You can customize your setup with
